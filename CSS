@@ -1,0 +1,118 @@
+CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background: #770f0f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #000000;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #000000;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+li button:first-of-type {
+    background: #f5a623;
+}
+
+li button:first-of-type:hover {
+    background: #d4881c;
+}
+
+li button:last-of-type {
+    background: #e74c3c;
+}
+
+li button:last-of-type:hover {
+    background: #c0392b;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
